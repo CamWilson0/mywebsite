@@ -1,0 +1,553 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Chakra Petch", sans-serif;
+
+}
+.chakra-petch-light {
+	font-family: "Chakra Petch", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+  }
+  
+  .chakra-petch-light-italic {
+	font-family: "Chakra Petch", sans-serif;
+	font-weight: 300;
+	font-style: italic;
+  }
+  
+  .chakra-petch-regular {
+	font-family: "Chakra Petch", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+  }
+  
+  .chakra-petch-regular-italic {
+	font-family: "Chakra Petch", sans-serif;
+	font-weight: 400;
+	font-style: italic;
+  }
+  
+  .chakra-petch-medium {
+	font-family: "Chakra Petch", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+  }
+  
+  .chakra-petch-medium-italic {
+	font-family: "Chakra Petch", sans-serif;
+	font-weight: 500;
+	font-style: italic;
+  }
+  
+  .chakra-petch-semibold {
+	font-family: "Chakra Petch", sans-serif;
+	font-weight: 600;
+	font-style: normal;
+  }
+  
+  .chakra-petch-semibold-italic {
+	font-family: "Chakra Petch", sans-serif;
+	font-weight: 600;
+	font-style: italic;
+  }
+  
+  .chakra-petch-bold {
+	font-family: "Chakra Petch", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+  }
+  
+  .chakra-petch-bold-italic {
+	font-family: "Chakra Petch", sans-serif;
+	font-weight: 700;
+	font-style: italic;
+  }
+body{	
+	height:200%;
+	background-image: linear-gradient(black,darkgray);
+	color: black;
+
+
+}
+.main{
+	height: 10vh;	
+	
+}
+nav{
+	width:100%;
+	position: sticky;
+	margin: 0px auto;
+	display: flex;
+} 
+.nav-links{
+	flex: 0px;
+	text-align: left;
+	font-size: 42px;
+	opacity: 1;
+	position:absolute;
+	left:5%;
+}
+.nav-links ul li{
+	list-style: upper-alpha;
+	display: inline-block;
+	margin:50px 45px;
+}
+
+.socials{
+	position:absolute;
+	left: 70%;
+	margin-top: 40px;
+	
+}
+#resume{
+	width: 70px;
+	height:70px;
+	margin-left: 30px;
+}
+#github{
+	width: 50px;
+	height:50px;
+	margin-left:30px;
+	position: relative;
+	bottom: 10px;
+}
+#linkedin{
+	width: 50px;
+	height: 50px;
+	margin-left: 40px;
+	position:relative;
+	bottom: 8px;
+	
+}
+#spotify{
+	width: 50px;
+	height: 50px;
+	margin-left: 40px;
+	position:relative;
+	bottom: 8px;
+}
+.workprojects{
+    position: relative;
+    left:25%;
+    top:375%;
+	margin-left:-20px;
+}
+#lillysite,#comingsoon{
+height: 300px;
+width: 540px;
+position:absolute;
+left: -14%;
+border-radius:15px;
+border:solid black 5px;
+opacity:1;
+}
+
+h1{
+	font-size:42px;
+	position:absolute;
+	left: -7%;
+	bottom:20px;
+}
+h2{
+	width:400px;
+	font-size:42px;
+	position:absolute;
+	left:100px;
+	bottom: 20px;
+}
+h1,h2{
+	color:white;
+	background-color:darkgray;
+	background-image: linear-gradient(	darkgray ,white);
+	background-size: 100%;
+	-webkit-background-clip: text;
+			background-clip:text;
+	-moz-background-clip: text;
+	-webkit-text-fill-color: transparent; 
+	-moz-text-fill-color: transparent;
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: black;
+}
+.personalprojects{
+	position:absolute;
+	right:46%;
+	top:38%;
+	
+}
+.personalprojects:hover .discoverfy{
+	opacity:.3;
+}
+.personalprojects:hover .discoverfyname{
+	opacity:1;
+}
+.personalprojects:hover .discoverfyinfo{
+	opacity:1;
+}
+.discoverfy{
+	transition: opacity 0.3s ease;
+	margin-top:2%;
+	height: 300px;
+	width: 540px;
+	position:absolute;
+	left:25%;
+	border-radius:15px;
+	opacity:1;
+	border: solid black 5px;
+	}
+
+.discoverfyname{
+	transition: opacity 0.3s ease;
+	height: 300px;
+	width: 540px;
+	position:absolute;
+	left:25%;
+	top:50px;
+	color:white;
+	font-size:48px;
+	text-align:center;
+	opacity:0;
+
+}
+.discoverfyinfo{
+	transition: opacity 0.3s ease;
+	height: 300px;
+	width: 540px;
+	position:absolute;
+	left:25%;
+	top:110px;
+	color:white;
+	font-size:24px;
+	text-align:center;
+	opacity:0;
+}
+.lillysiteinfo{
+	transition: opacity 0.3s ease;
+	height: 300px;
+	width: 540px;
+	position:absolute;
+	left: -13%;
+	top:120px;
+	color:white;
+	font-size:24px;
+	text-align:center;
+	opacity:0;
+}
+
+.lillysitename{
+	transition: opacity 0.3s ease;
+	height: 300px;
+	width: 540px;
+	position:absolute;
+	top:60px;
+	left:-13%;
+	color:white;
+	font-size:48px;
+	text-align:center;
+	opacity:0;
+
+}
+.workprojects:hover .lillysiteinfo{
+	opacity: 1;
+}
+.workprojects:hover #lillysite{
+	opacity:.3;
+}
+.workprojects:hover .lillysitename{
+	opacity: 1;
+}
+.skills{
+	position:absolute;
+	top:850px;
+}
+.languages{
+	width:45%;
+	margin-left:160px;
+
+}
+.tools{
+	width:45%;
+	position:absolute;
+	left: 57%;
+	bottom:0px;
+}
+h{
+	font-size: 44px;
+	color:white;
+	position:absolute;
+	top:-70px;
+	left:20%;
+	background-color:darkgray;
+	background-image: linear-gradient(	darkgray ,white);
+	background-size: 100%;
+	-webkit-background-clip: text;
+			background-clip:text;
+	-moz-background-clip: text;
+	-webkit-text-fill-color: transparent; 
+	-moz-text-fill-color: transparent;
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: black;
+	align-items: center;
+}
+
+#html, #css, #js, #python, #sql, #typescript, #php, #csharp, #json, #react, #vue, #angular, #node, #django, #flask, #vscode, #bluehost{
+	max-height:140px;
+	max-width:140px;
+	margin:30px;
+	margin-top:20px;
+}
+#js{
+	position:relative;
+	top:22px;
+}
+#typescript{
+position:relative;
+left:-25px;
+max-width:100px;
+max-height:100px;
+}
+#angular{
+	max-width:200px;
+	max-height:200px;
+	margin:10px;
+}
+
+#python{
+	max-height: 200px;
+	max-width: 200px;
+	margin:0px;
+}
+#php{
+	max-width: 160px;
+	max-height: 160px;
+	position:relative;
+	top:-40px;
+	left:60px;
+}
+#sql{
+	position:relative;
+	top: -10px;
+	left:-25px;
+}
+#csharp{
+	position: relative;
+	top:-10px;
+	left:60px;
+}
+#vue{
+	max-width: 180px;
+	max-height:180px;
+	position: relative;
+	top:-10px;
+
+}
+#django{
+	position: relative;
+	top:-28px;
+}
+#flask{
+	position:relative;
+	left:100px;
+}
+#vscode{
+	position: relative;
+	left:100px;
+	top:-25px;
+}
+#lillysite:hover + #sql
+#lillysite:hover + #php
+#lillysite:hover + #csharp
+#lillysite:hover + #python{
+	opacity:.2;
+}
+@media (max-width: 1400px) {
+	body{
+		height:200%;
+	}
+	.nav-links {
+		position:absolute;
+		top:15px;
+		font-size: 20px;
+		width:100%
+	}
+
+	.nav-links ul li {
+		margin: 15px;
+	}
+
+	.socials {
+		left: 15%;
+		right: auto;
+		margin-top: 40px;
+		width:100%;
+		top:1200px;
+	}
+    
+	#spotify, #linkedin, #github {
+
+		width: 44px;
+		height: 44px;
+		margin-left: 30px;
+	}
+
+	#resume{
+		width:60px;
+		height:60px;
+		margin-left:30px;
+	}
+	
+    .workprojects, .personalprojects, #lillysite, #comingsoon, .discoverfy {
+        width: 95%; 
+		height:auto;
+		left:0px;
+    }
+	.workprojects{
+		top:130%;
+	}
+	#lillysite{
+		left:8.5%;
+		top:30px;
+	}
+
+    h1, h2 {
+        opacity:0;
+        left: 0; 
+        text-align: center; 
+    }
+
+    .discoverfyname, .discoverfyinfo, .lillysiteinfo, .lillysitename {
+        width: 90%; 
+		align-items: center;
+		left:13%;
+      
+    }
+	.discoverfyname, .discoverfyinfo{
+		position:relative;
+		left:4%;
+		top:-15px;
+	}
+	.discoverfyname, .lillysitename{
+		font-size:30px;
+	}
+	.discoverfyinfo, .lillysiteinfo{
+		font-size:18px;
+	}
+
+	.personalprojects{
+		top:45%;
+		left:4%;
+		
+	}
+	
+	#html, #css, #js, #python, #sql, #typescript, #php, #csharp, #json, #react, #vue, #angular, #node, #django, #flask, #vscode, #bluehost{
+		max-height:60px;
+		max-width:60px;
+		margin:10px;
+		margin-top:6px;
+	}
+	.skills{
+		position:absolute;
+		top:750px;
+	}
+	.languages{
+		width:45%;
+		margin-left:40px;
+	
+	}
+	.tools{
+		width:45%;
+		position:absolute;
+		left: 57%;
+	}
+	h{
+		font-size: 24px;
+		color:white;
+		position:absolute;
+		top:-70px;
+		left:12%;
+		background-color:darkgray;
+		background-image: linear-gradient(	darkgray ,white);
+		background-size: 100%;
+		-webkit-background-clip: text;
+				background-clip:text;
+		-moz-background-clip: text;
+		-webkit-text-fill-color: transparent; 
+		-moz-text-fill-color: transparent;
+		-webkit-text-stroke-width: .4px;
+		-webkit-text-stroke-color: black;
+		align-items: center;
+	}
+	#js{
+		position:relative;
+		top:6px;
+	}
+	#typescript{
+	position:relative;
+	left:-5px;
+	max-width:50px;
+	max-height:50px;
+	}
+	#angular{
+		max-width:90px;
+		max-height:90px;
+		margin:2px;
+	}
+	
+	#python{
+		max-height: 90px;
+		max-width: 90px;
+		margin:0px;
+	}
+	#php{
+		max-width: 70px;
+		max-height: 70px;
+		position:relative;
+		top:-10px;
+		left:0px;
+	}
+	#sql{
+		position:relative;
+		top: -2px;
+		left:-5px;
+	}
+	#csharp{
+		position: relative;
+		top:-2px;
+		left:0px;
+	}
+	#vue{
+		max-width: 75px;
+		max-height:75px;
+		position: relative;
+		top:-2px;
+	
+	}
+	#django{
+		position: relative;
+		top:-6px;
+	}
+	#flask{
+		position:relative;
+		left:20px;
+	}
+	#vscode{
+		position: relative;
+		left:20px;
+		top:-5px;
+	}
+	#json,#react{
+		margin-top:30px;
+	}
+}
+
+
+
+
+a:link{
+	color:	indigo;
+	text-decoration: none;
+}
+
+a:active{
+	color: hotpink;
+}

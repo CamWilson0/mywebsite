@@ -1,0 +1,187 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Chakra Petch", sans-serif;
+}
+.chakra-petch-light {
+	font-family: "Chakra Petch", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+  }
+  
+  .chakra-petch-light-italic {
+	font-family: "Chakra Petch", sans-serif;
+	font-weight: 300;
+	font-style: italic;
+  }
+  
+  .chakra-petch-regular {
+	font-family: "Chakra Petch", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+  }
+  
+  .chakra-petch-regular-italic {
+	font-family: "Chakra Petch", sans-serif;
+	font-weight: 400;
+	font-style: italic;
+  }
+  
+  .chakra-petch-medium {
+	font-family: "Chakra Petch", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+  }
+  
+  .chakra-petch-medium-italic {
+	font-family: "Chakra Petch", sans-serif;
+	font-weight: 500;
+	font-style: italic;
+  }
+  
+  .chakra-petch-semibold {
+	font-family: "Chakra Petch", sans-serif;
+	font-weight: 600;
+	font-style: normal;
+  }
+  
+  .chakra-petch-semibold-italic {
+	font-family: "Chakra Petch", sans-serif;
+	font-weight: 600;
+	font-style: italic;
+  }
+  
+  .chakra-petch-bold {
+	font-family: "Chakra Petch", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+  }
+  
+  .chakra-petch-bold-italic {
+	font-family: "Chakra Petch", sans-serif;
+	font-weight: 700;
+	font-style: italic;
+  }
+  
+
+
+
+
+body{
+	background-image:linear-gradient(gray,darkgray);
+	color: black;
+}
+
+
+
+.links{
+    width:100%;
+    height:100%;
+    border: solid, 10px, black;
+    align-items: center;
+}
+#fiverr, #upwork, .linkedin, #contact{
+    width:49%;
+    height: 49%;
+    position:absolute;
+    border-color:black;
+    border-width:12px;
+    border-style:solid;
+    border-radius: 3px;
+    top:0px;
+    left:0px;
+    
+
+
+
+}
+.linkedin, #contact{
+    left:50%;
+}
+#fiverr, #contact{
+    position:absolute;
+    top:51%;
+}
+#contact{
+    color:black;
+    text-align: center;
+    font-size:94px;
+    background-color: #203354;
+    
+    
+}
+#contact:visited{
+    color:black;
+}
+b{
+    position:relative;
+    top:35%;
+}
+#linkedin{
+    position:relative;
+    width:80%;
+    left:10%;
+    top:0%;
+    
+}
+.linkedin{
+    background-color: #adbce6;
+}
+#upwork{
+    background-color:white;
+}
+#home{
+    z-index:100;
+    position: absolute;
+    top:45%;
+    left:44.5%;
+    text-align:center;
+    border-width:5px;
+    border-color:black;
+    border-style:solid;
+    font-size:36px;
+    background-color: gray;
+    height:75px;
+    width:200px;
+    padding-top:25px;
+    border-radius:7px;
+}
+
+@media (max-width: 1400px) {
+    #fiverr, #upwork, .linkedin, #contact{
+        width:100%;
+        height:25%;
+        position: absolute;
+        left:0px;
+    }
+    #fiverr{
+        
+        top:50%;
+    }
+    #upwork{
+        top:0px;
+    }
+    .linkedin{
+        top:25%;
+        
+    }
+    #contact{
+        top:75%;
+    }
+    #linkedin{
+        top:-30px;
+    }
+    #home{
+        left:35%;
+    }
+}
+a:link{
+
+	text-decoration: none;
+}
+a:active{
+	color: hotpink; 
+}
+a:-webkit-any-link {
+    color:black;
+}

@@ -1,0 +1,92 @@
+
+	<html>
+	<head>
+		<title>CamWilson</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">	
+		<link rel="stylesheet" href="mywebsite.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<meta name="keywords" content="Cameron Wilson, Cameron Wilson developer, Cameron Wilson dev, python dev, unity dev, c# dev, js dev, javascript dev, website developer">
+	</head>
+	<body>
+		<div class="main">
+			<nav>
+				<!--All links to other pages-->
+				<div class="nav-links"> 
+					<ul>
+						<li><a href ="index.html"><b>home</b></a></li>
+						<li><a href="aboutme.html"><b>about</b></a></li>
+						<li><a href="portfolio.html"><b>portfolio</b></a></li>
+						<li><a href="mysitecontactinfo.html"><b>contact</b></a></li>
+					</ul>
+				</div>
+				<div class = "socials">
+					<a href="https://github.com/CamWilson0"><img id ="github" src ="github-icon-1024x994-4h5sdmko.png" title = "github"></a>
+					<a href="https://www.linkedin.com/in/cameron-wilson-8921422b1/"><img id= "linkedin" src = "702300.png" title = "linkedin"></a>
+					<a href="https://open.spotify.com/user/wp7ktu2lihbphcwck549z45jv"><img id = "spotify" src = "spotifylogo.png" title = "spotify"></a>
+					<a href="resume.pdf"><img id = "resume" src = "pngtree-vector-resume-icon-png-image_998136-removebg-preview.png" title = "resume"></a>
+				</div>
+				</nav>
+				<div id="welcome_message">
+					<h1 id="headline"></h1>
+					<p id="subtext1"> </p>
+					<p id="subtext2"> </p>
+				  </div>
+				
+				  <script>
+					// Text to type
+					const headlineText = "hi, i'm cam!";
+					const subtext1 = "freelance full-stack developer,";
+					const subtext2 = "here to help grow your business.";
+				
+					// Typing speed in milliseconds
+					const typingSpeed = 100;
+				
+					// Get elements
+					const headlineElement = document.getElementById('headline');
+					const subtextElement1 = document.getElementById('subtext1');
+					const subtextElement2 = document.getElementById('subtext2');
+				
+					// Function to simulate typing effect
+					function typeText(element, text) {
+					  let i = 0;
+					  const interval = setInterval(function() {
+						element.innerHTML += text.charAt(i);
+						i++;
+						if (i > text.length - 1) {
+						  clearInterval(interval);
+						}
+					  }, typingSpeed);
+					}
+				
+					// Type the headline
+					typeText(headlineElement, headlineText);
+				
+					// Type the subtext
+					setTimeout(function() {
+					  typeText(subtextElement1, subtext1);
+					}, headlineText.length * typingSpeed + 1000); // Delay typing the subtext
+										// Type the subtext
+					setTimeout(function() {
+					  typeText(subtextElement2, subtext2);
+					}, subtext1.length * typingSpeed + 2400); // Delay typing the subtext
+				  </script>
+					  
+
+			<div class ="mywork">
+					<a href = "portfolio.html"><b>my work</b></a>
+			</div>
+			
+			<div class = "hireme">
+				<a href = "hirelinks.html"><b>hire me</b></a>
+
+			</div>
+		</div>
+	</body>
+</html>
+
+				
+				
+
+			
